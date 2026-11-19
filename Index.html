@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Empire — Luxury Hair Salon</title>
+<meta name="description" content="Empire is a luxury hair salon for cuts, colour, bridal styling and men’s grooming. Book your appointment online or on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top"><div class="wrap"><nav aria-label="Main">
+<a class="logo" href="#top">Empire</a>
+<button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="links"><span></span><span></span><span></span></button>
+<div class="links" id="links"><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#work">Our work</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a><a class="btn fill" href="#book" style="min-height:40px;padding:.3rem 1.2rem">Book now</a><button class="theme" type="button" aria-pressed="false" aria-label="Switch to light theme">◐</button></div>
+</nav></div></header>
+<canvas id="fall" aria-hidden="true"></canvas>
+<div class="spin" aria-hidden="true">
+<svg class="sc" data-r=".22" style="left:-40px;top:26vh;width:170px;opacity:.22" viewBox="0 0 120 220" fill="none" stroke="#bfe0ff" stroke-width="2.5" stroke-linecap="round"><g class="b1"><path d="M60 100 L44 6 L72 90Z"/><circle cx="40" cy="178" r="20"/></g><g class="b2"><path d="M60 100 L76 6 L48 90Z"/><circle cx="80" cy="178" r="20"/></g></svg>
+<svg class="sc" data-r="-.3" style="right:6%;top:12vh;width:90px;opacity:.14;filter:blur(2px)" viewBox="0 0 120 220" fill="none" stroke="#3d8bff" stroke-width="2.5" stroke-linecap="round"><g class="b1"><path d="M60 100 L44 6 L72 90Z"/><circle cx="40" cy="178" r="20"/></g><g class="b2"><path d="M60 100 L76 6 L48 90Z"/><circle cx="80" cy="178" r="20"/></g></svg>
+<svg data-r="-.16" style="right:-70px;bottom:10vh;width:250px;opacity:.2" viewBox="0 0 260 60" fill="none" stroke="#bfe0ff" stroke-width="2"><rect x="2" y="2" width="256" height="22" rx="8"/><path d="M10 24v32M26 24v26M42 24v32M58 24v26M74 24v32M90 24v26M106 24v32M122 24v26M138 24v32M154 24v26M170 24v32M186 24v26M202 24v32M218 24v26M234 24v32M250 24v26" stroke-linecap="round"/></svg>
+</div>
+
+<main>
+<section class="hero" aria-label="Welcome">
+<div class="deco" aria-hidden="true">
+<svg class="fl sc" data-p=".25" style="left:4%;top:16%;width:190px;--r0:-18deg;--r1:-4deg;opacity:.55" viewBox="0 0 120 220" fill="none" stroke="#bfe0ff" stroke-width="2.5" stroke-linecap="round"><g class="b1"><path d="M60 100 L44 6 L72 90Z" fill="rgba(61,139,255,.25)"/><circle cx="40" cy="178" r="20"/><path d="M60 100 L44 160"/></g><g class="b2"><path d="M60 100 L76 6 L48 90Z" fill="rgba(191,224,255,.2)"/><circle cx="80" cy="178" r="20"/><path d="M60 100 L76 160"/></g><circle cx="60" cy="100" r="4" fill="#bfe0ff"/></svg>
+<svg class="fl sc" data-p="-.15" style="right:3%;bottom:8%;width:120px;--r0:20deg;--r1:40deg;opacity:.3;filter:blur(2px)" viewBox="0 0 120 220" fill="none" stroke="#3d8bff" stroke-width="2.5" stroke-linecap="round"><g class="b1"><path d="M60 100 L44 6 L72 90Z"/><circle cx="40" cy="178" r="20"/></g><g class="b2"><path d="M60 100 L76 6 L48 90Z"/><circle cx="80" cy="178" r="20"/></g></svg>
+<svg class="fl" data-p=".4" style="right:44%;bottom:6%;width:260px;--r0:-8deg;--r1:-22deg;opacity:.45;animation-duration:15s" viewBox="0 0 260 60" fill="none" stroke="#bfe0ff" stroke-width="2"><rect x="2" y="2" width="256" height="22" rx="8" fill="rgba(20,56,143,.35)"/><path d="M10 24v32M26 24v26M42 24v32M58 24v26M74 24v32M90 24v26M106 24v32M122 24v26M138 24v32M154 24v26M170 24v32M186 24v26M202 24v32M218 24v26M234 24v32M250 24v26" stroke-linecap="round"/></svg>
+<svg class="fl" data-p="-.3" style="left:38%;top:10%;width:150px;--r0:30deg;--r1:55deg;opacity:.2;filter:blur(3px);animation-duration:18s" viewBox="0 0 260 60" fill="none" stroke="#3d8bff" stroke-width="2"><rect x="2" y="2" width="256" height="22" rx="8"/><path d="M10 24v32M42 24v32M74 24v32M106 24v32M138 24v32M170 24v32M202 24v32M234 24v32"/></svg>
+<i class="dot" style="left:12%;top:60%;width:6px;height:6px"></i><i class="dot" style="left:48%;top:20%;width:4px;height:4px;animation-delay:-2s"></i><i class="dot" style="left:70%;top:78%;width:7px;height:7px;animation-delay:-3s"></i><i class="dot" style="left:90%;top:30%;width:5px;height:5px;animation-delay:-1s"></i><i class="dot" style="left:30%;top:88%;width:4px;height:4px;animation-delay:-4s"></i>
+</div>
+<div class="wrap">
+<div>
+<h1><span><i>Your style.</i></span><span><i>Your signature.</i></span></h1>
+<p>Empire is a hair studio for people who treat their look as craft. Precision cuts, considered colour and unhurried appointments with stylists trained in London, Milan and Mumbai.</p>
+<div class="cta"><a class="btn fill mag" href="#book">Book an appointment</a><a class="btn ghost mag" href="#gallery">Explore styles</a></div>
+</div>
+<div class="portrait"><div class="ph" style="--c1:#7fb4ff;--x:60%"></div></div>
+</div>
+<a class="scroll" href="#services" aria-label="Scroll to services"></a>
+</section>
+
+<section id="services"><div class="wrap">
+<h2 class="rv">Services</h2><p class="lead rv">Every visit starts with a consultation, so the result suits your hair, your routine and your face. Prices are in INR; your stylist confirms the final quote after consultation.</p>
+<div class="grid3" id="svc"></div>
+</div></section>
+
+<section id="gallery" style="background:var(--mid)"><div class="wrap">
+<div class="head"><div><h2>Hairstyle gallery</h2><p class="lead">Drag, swipe or use the arrows to browse.</p></div>
+<div class="arrows"><button aria-label="Previous" data-dir="-1" data-t="gal">←</button><button aria-label="Next" data-dir="1" data-t="gal">→</button></div></div>
+<div class="scroller" id="gal" tabindex="0" aria-label="Hairstyle gallery"></div>
+</div></section>
+
+<section id="work"><div class="wrap">
+<h2 class="rv">Our work</h2>
+<div class="filters" role="group" aria-label="Filter portfolio"></div>
+<div class="masonry" id="mas"></div>
+<h3 class="rv" style="font-size:2rem;margin-top:4rem">Before &amp; after</h3>
+<div class="ba" id="ba"><div class="before"><div class="ph"><span>Before</span></div></div><div class="after"><div class="ph" style="justify-content:flex-end"><span>After</span></div></div><div class="bar"></div><input type="range" min="0" max="100" value="50" aria-label="Compare before and after"></div>
+</div></section>
+
+<section id="about" style="background:var(--mid)"><div class="wrap split">
+<div class="portrait rv"><div class="ph" style="--c1:#9fd0ff;--c2:#0a1a45;--x:30%"></div></div>
+<div class="rv"><h2>Craft first, trends second.</h2>
+<p>We founded Empire on one idea: a great haircut should look like you on your best day, and still look right six weeks later. Our stylists train continuously and keep appointments long enough to listen before they cut.</p>
+<p style="margin-top:1rem">The studio is quiet by design, with private colour bays, a scalp-care room and a bridal suite.</p>
+<div class="stats"><div><b>12</b>years in practice</div><div><b>9</b>senior stylists</div><div><b>18k</b>clients styled</div></div></div>
+</div></section>
+
+<section id="reviews"><div class="wrap">
+<div class="head"><h2>Client reviews</h2><div class="arrows"><button aria-label="Previous review" data-dir="-1" data-t="rev">←</button><button aria-label="Next review" data-dir="1" data-t="rev">→</button></div></div>
+<div class="scroller" id="rev" tabindex="0" aria-label="Client reviews"></div>
+</div></section>
+
+<section id="book"><div class="wrap" style="max-width:860px">
+<h2>Book an appointment</h2><p class="lead" style="margin-bottom:2rem">Choose a time and we’ll confirm within two hours. Prefer chat? Send it straight to WhatsApp.</p>
+<form id="bf" novalidate>
+<label>Full name<input name="n" required autocomplete="name"></label>
+<label>Phone<input name="p" type="tel" required autocomplete="tel"></label>
+<label>Service<select name="s"></select></label>
+<label>Email<input name="e" type="email" autocomplete="email"></label>
+<label>Preferred date<input name="d" type="date" required></label>
+<label>Preferred time<select name="t"><option>10:00 AM</option><option>12:00 PM</option><option>2:00 PM</option><option>4:00 PM</option><option>6:00 PM</option></select></label>
+<div class="msg full" role="status" aria-live="polite"></div>
+<button class="btn fill" type="submit">Book appointment</button>
+<button class="btn ghost" type="button" id="wa">Book on WhatsApp</button>
+</form>
+</div></section>
+
+<section id="contact" style="padding-top:2rem"><div class="wrap">
+<h2>Visit the studio</h2>
+<div class="info">
+<div><h3>Address</h3>Nagpur, Maharashtra<br><a class="price" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=hair+salon+Nagpur">Open in Google Maps</a></div>
+<div><h3>Contact</h3><a href="tel:+919999999999">+91 99999 99999</a><br><a href="mailto:cratature@gmail.com">cratature@gmail.com</a></div>
+<div><h3>Hours</h3>Mon–Sat: 10:00 AM – 8:00 PM<br>Sunday: 11:00 AM – 6:00 PM</div>
+<div><h3>Follow</h3><a href="https://www.instagram.com/ugc_with_frames/" target="_blank" rel="noopener" aria-label="Instagram: ugc_with_frames">Instagram @ugc_with_frames</a><br>Frames | UGC Creator</div>
+</div></div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Empire. All rights reserved.</span><nav aria-label="Footer"><a href="#services">Services</a><a href="#work">Our work</a><a href="#book">Book</a></nav></div></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/motion@11.18.2/dist/motion.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
